@@ -1,0 +1,72 @@
+header {
+    background-color: hsl(0, 0%, 90%);
+    text-align:center;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:#005677;
+    background-color: #C4C4C4;
+}
+
+.section {
+    margin: 0 auto;
+    width: 70%;
+}
+
+h3 {
+    padding: 0.5%;
+    font-size: 18px ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#005677;
+    background-color: #C4C4C4;
+}
+
+.datospersonales {
+    line-height: 25px;
+}
+
+.items {
+    font-weight: bold;
+    font-style: italic;
+}
+
+dd {
+    padding-left: 39px;
+    padding-bottom: 7px;
+    display: block;
+    margin-inline-start: 80px;
+}
+
+dt {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.foot {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #005677;
+    text-align: center;
+    display: block;
+}
+
+.footdata {
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:#ffffff;
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.imagenes {
+    vertical-align: text-bottom;
+    padding-right: 20px;
+    font-weight: normal;
+}
