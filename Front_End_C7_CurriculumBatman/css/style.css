@@ -12,12 +12,12 @@ h1 {
 }
 
 .section {
-    margin: 0 auto;
+    margin:0 auto;
     width: 70%;
 }
 
 h3 {
-    padding: 0.5%;
+    padding: 0.5%; /*que tan ancho o grande va creacion un background de texto*/
     font-size: 18px ;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -26,7 +26,7 @@ h3 {
 }
 
 .datospersonales {
-    line-height: 25px;
+    line-height: 25px; /*interlineado*/
 }
 
 .items {
@@ -34,39 +34,36 @@ h3 {
     font-style: italic;
 }
 
+dt {
+    /*display: block;*/
+    margin-inline-start: 40px; /*sangria*/
+}
+
 dd {
     padding-left: 39px;
-    padding-bottom: 7px;
-    display: block;
+    padding-bottom: 7px; /*una especie de interlineado de cajas de background*/
+    /*display: block;*/
     margin-inline-start: 80px;
 }
 
-dt {
-    display: block;
-    margin-inline-start: 40px;
-}
-
 .foot {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px; /*lo que crece hacia arriba la caja*/
+    padding-bottom: 10px; /*lo que crece hacia abajo la caja*/
     background-color: #005677;
     text-align: center;
-    display: block;
+    /*display: block;*/
 }
 
-.footdata {
-    
+.footdata {  
     letter-spacing: 5px;
     text-transform: uppercase;
     color:#ffffff;
-    
     font-weight: bold;
     font-size: 20px;
     
 }
 
 .imagenes {
-    vertical-align: text-bottom;
-    padding-right: 20px;
-    font-weight: normal;
+    vertical-align: text-bottom; /*alinear con texto*/
+    padding-right:20px;
 }
