@@ -1,0 +1,135 @@
+.milogo {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    float: inline-start;
+    
+}
+
+header {
+    background-color: #b4b5bf;
+    padding-bottom: 2%;
+    text-align: center;
+
+}
+.navegar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.principal {
+    background-color: #b4b5bf;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    background-color: #040a1b ;
+    color: white;
+    padding: 0.5%;
+    
+}
+
+h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 50px;
+}
+
+.icon2 {
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+
+.textoperfil {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 40%;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-inline-start: 1.5%;
+    padding-block-start: 0.5%;
+    padding-block-end: 0.5%;
+}
+.mifoto {
+    float: left;
+    margin-left: 5% ;
+    margin-right: 9%;
+}
+
+.perfil3 {
+    
+    background-image:url('../img/fondocalle.jpg') ;
+    background-size: cover;
+    background-position-y: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.perfil2 {
+    
+    background-image:url('../img/fondolago.jpg') ;
+    background-size: cover;
+    background-position-y: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.perfil {
+    
+    background-image:url('../img/fondoarboles.jpg') ;
+    background-size: cover;
+    background-position-y: 100%;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+.tercera {
+    padding-bottom: 7%;
+}
+
+.subtitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 70%;
+    color: white;
+    background-color: #a35e06;
+    padding:  0.5%;
+    padding-inline: 15%;
+}
+
+dl {
+    margin: auto;
+    width: 60%;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 14px;
+    
+    padding-top: 3%;
+    
+}
+
+dd {
+    padding-top: 0.5%;
+    
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #222c4d ;
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+}
+
+.imgfoot{
+    padding-inline: 2%;
+}
