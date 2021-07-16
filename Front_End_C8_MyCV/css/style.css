@@ -1,37 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kaushan+Script&display=swap');
+
 .milogo {
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 2%;
     float: inline-start;
-    
 }
-
-header {
-    background-color: #b4b5bf;
-    padding-bottom: 2%;
-    text-align: center;
-
-}
-.navegar {
+/* links de header*/
+.principal a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
 }
-
+/* fondo header*/
+header {
+    background-color: #b4b5bf;
+    padding-bottom: 2%;
+    text-align: center;
+}
+/* fondo tomando header e inicio del main*/
 .principal {
     background-color: #b4b5bf;
 }
-
+/* mi nombre*/
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 45px;
     background-color: #040a1b ;
     color: white;
     padding: 0.5%;
+    letter-spacing: 5px;
     
 }
-
+/* titulos de quien soy y contactos*/
 h2 {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -40,28 +44,30 @@ h2 {
     padding-bottom: 5%;
     font-size: 50px;
 }
-
-.icon2 {
-    margin-left: 20%;
-    padding-bottom: 20px;
+/* profesion mia subtitulo perfil*/
+.profesion{
+    color: #040a1b;
+    font-family: 'Kaushan Script',cursive;
+    font-size: 30px;
 }
-
+/* texto de mi perfil*/
 .textoperfil {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-left: 40%;
-    margin-right: 10%;
+    margin-right: 5%;
     background-color: rgba(0, 0, 0, 0.8);
     padding-inline-start: 1.5%;
     padding-block-start: 0.5%;
     padding-block-end: 0.5%;
 }
+/* foto de perfil*/
 .mifoto {
     float: left;
     margin-left: 5% ;
     margin-right: 9%;
 }
-
+/* banner foto contacto*/
 .perfil3 {
     
     background-image:url('../img/fondocalle.jpg') ;
@@ -70,29 +76,24 @@ h2 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
+/* banner foto quien soy*/
 .perfil2 {
-    
     background-image:url('../img/fondolago.jpg') ;
     background-size: cover;
     background-position-y: 30%;
     padding-bottom: 20px;
     padding-top: 20px;
+    position: absolute;
 }
-
+/*banner fondo imagen*/
 .perfil {
-    
     background-image:url('../img/fondoarboles.jpg') ;
     background-size: cover;
     background-position-y: 100%;
     padding-bottom: 70px;
     padding-top: 20px;
 }
-
-.tercera {
-    padding-bottom: 7%;
-}
-
+/*estilos de subtitulos*/
 .subtitulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
@@ -102,12 +103,12 @@ h2 {
     padding:  0.5%;
     padding-inline: 15%;
 }
-
+/*organizar todo el contenido de datos*/
 dl {
     margin: auto;
     width: 60%;
 }
-
+/*items de sections*/
 dt {
     font-weight: bold;
     font-size: 14px;
@@ -115,13 +116,15 @@ dt {
     padding-top: 3%;
     
 }
-
+/*descripcion fechas*/
 dd {
     padding-top: 0.5%;
-    
 }
-
-
+/* edicion para hacer un amrgen abajo de la ultima seccion*/
+.tercera {
+    padding-bottom: 7%;
+}
+/*footer general*/
 footer {
     color: white;
     text-align: center;
@@ -129,7 +132,9 @@ footer {
     padding-top: 1%;
     padding-bottom: 0.3%;
 }
-
+/* logos footer*/
 .imgfoot{
     padding-inline: 2%;
+    font-size: 25px;
+    color: white;
 }
