@@ -64,6 +64,7 @@ h1 {
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
     font-weight: lighter;
+    text-decoration: none;
 }
 /* texto de mi perfil*/
 .textoperfil {
