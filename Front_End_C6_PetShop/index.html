@@ -5,65 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
-        </div>
-        <div>
-            <img src="img/Cat.png" alt="cat" align="left">
-            <h1>Front Cat&Dog</h1>
-            <img src="img/Dog.png" alt="dog">
-        </div>
-        <nav>
-            <ul type= "None">
-                <img width="15" src="img/pawprint 1.png" align="Left"><a href="#"><li>Categorias</li></a>
-                <img width="15" src="img/pawprint 1.png" align="Left"><a href="#"><li>Pets</li></a>
-                <img width="15" src="img/pawprint 1.png" align="Left"><a href="#"><li>Nosotros</li></a>
-                <img width="15" src="img/pawprint 1.png" align="Left"><a href="#"><li>Contactanos</li></a>
-            </ul>
-        </nav>
+        <div class="headersup">
+        <span>Grandes ofertas en comederos</span>
+        <span class="formulariosup">
+        <select name="Idioma" style=" border: 0mm;">
+            <option>Español</option>
+            <option>English</option>
+            <option>Français</option>
+            <option>Chinesse</option>
+        </select> 
+        <select name="Moneda" style="border: 0mm;" >
+            <option>ARG$</option>
+            <option>COP$</option>
+            <option>DOL$</option>
+            <option>CA$</option>
+        </select> 
+        </span>
+        </div>  
+        <div class="header2">
+            <span><img src="img/Cat.png" alt="cat">
+            <span class="logoname1">Front</span><span class="logoname2">Cat&Dog</span>
+            <img src="img/Dog.png" alt="dog"></span>
+            <span class="menus">
+                <a href="#"><i class="fas fa-paw"></i><span>  Nosotros</span></a>
+                <a href="#"><i class="fas fa-paw"></i><span>  Categorias</span></a>
+                <a href="#"><i class="fas fa-paw"></i><span>  Pets</span></a>
+            </span>
         </div>
     </header>
     <main>
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png">
-            <p>Es un placer tenerte aquí!</p>
-            <p>Comederos en descuento</p>
-            <p>COMEDEROS</p>
+        <section class="part1">
+            <div class="p1">¡Es un placer tenerte aquí!</div>
+            <div class="p2">¡Comederos en descuento!</div>
+            <div class="p3">COMEDEROS</div>
         </section>
-        <section>
-            <img src="img/pawprint 1.png">
-            <h2>Productos destacados</h2>
-            <ul type="none">
-                <li>- Comederos</li>
-                <li>- Accesorios</li>
-                <li>- Comida</li>
-            </ul>
+        <section class="part2">
+            <img src="img/pawprint 1.png" width="75px">
+            <div class="pa1">Productos Destacados</div>
+            <div class="pa2">
+                <span> Comederos</span>
+                <span>-</span>
+                <span> Accesorios</span>
+                <span>-</span>
+                <span> Comida</span>
+            </div>
         </section>
-            <div>
-                <img src="img/churrasquito.png">
-                <p>Jugete Churrasquito</p>
-                <p>$150</p>
-            </div>
-            <div>
-                <img src="img/comedero.png">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div>
-                <img src="img/Huesito.png">
-                <p>Jugete Huesito</p>
-                <p>$650</p>
-            </div>
+        <section class="part3">
+            <span class="par1">
+                <img src="img/churrasquito.png" alt="churrasquito" width="300px">
+                <div>Jugete Churrasquito</div>
+                <div>$150</div>
+            </span>
+            <span class="par2">
+                <img src="img/comedero.png" alt="churrasquito" width="300px">
+                <div>Comedero para perro</div>
+                <div>$250</div>
+            </span>
+            <span class="par3">
+                <img src="img/Huesito.png" alt="churrasquito" width="300px">
+                <div>Jugete Huesito</div>
+                <div>$650</div>
+            </span>
         </section>
     </main>
     <footer>
-        <hr>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <div class="footy2">
+            <span><img src="img/Cat.png" alt="cat">
+            <span class="logoname3">Front</span><span class="logoname4">Cat&Dog</span>
+            <img src="img/Dog.png" alt="dog"></span></div>
+        <div class="foty">
+        <section class="foot1">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <spam class="dat">
+                Localidad
+                <div>calle - provincia</div></spam>
+            </div>
+        </section>
+        <section class="foote">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <spam class="dat">
+                    Teléfono
+                    <div>Número de teléfono</div></spam>
+                    </spam>
+                </div>
+        </section>
+            <section class="foote1">
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <spam class="dat">
+                    Correo Electrónico
+                    <div>Dirección de correo</div></spam>
+                    </spam>
+                </div>
+        </section>
+    </div>
+        <div class="foot2">Todos los derechos reservados Front End</div>
     </footer>
 </body>
 </html>
