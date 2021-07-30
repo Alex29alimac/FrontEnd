@@ -60,7 +60,9 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-block: 100px;
 }
 .left{
     background-image: url(../img/delivery.jpg);
@@ -95,7 +97,7 @@ main{
     font-weight: 700;
     font-size: 20px;
 }
-li{
+.right li{
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -113,12 +115,16 @@ li{
     margin-inline: 20px;
 }
 .menu2 {
-    height: 112px;
+    /*height: 112px;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
+}
+.menu2 li{
+    list-style-type: none;
+    padding: 5px;
 }
 .logo2 {
     display: flex;
@@ -150,4 +156,5 @@ footer{
 }
 body{
     background-color: #E5E5E5;
+    
 }
