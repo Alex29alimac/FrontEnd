@@ -1,223 +1,246 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-.formulariosup {
-    float: right;
-    background: none;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-.formulariosup select {
-    background-color: transparent;
-    color: white;
+:root{
+    --negrocolor: #222222;
+    --naranjacolor: #F0A83E;
+    --cafecolor: #3C2313;
+    --blancocolor:  #ffffff;
+    --beigecolor: #FBFAF6;
 }
-.headersup {
-    padding-top: 10px;
-    background-color: #222222;
-    color: white;
-    height: 30px;
-    padding-inline: 110px;
-}
-.logoname1 {
+/* ---------- GENERIC -----------------*/
+body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #3C2313;
 }
-.logoname2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
+ul{
+    list-style: none;
 }
-.menus{
-    float: right;
+ul li{
+    padding-right: 15px;
+    display: inline-block;
 }
-.menus a{
+a {
     text-decoration: none;
-    color: white;
+}
+h1{
     font-size: 20px;
-    vertical-align: middle;
-    padding-inline: 20px;
 }
-.header2 img{
-    vertical-align: text-bottom;
-    width: 20px;
+/* -----------HEADER STYLE---------------*/
+/* -----------CAJA NEGRA---------------*/
+.ofertas{
+    background-color: var(--negrocolor);
+    height: 30px;
+    font-size: 12px;
+    color: var(--blancocolor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.header2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #F0A83E;
-    padding-inline: 50px;
-}
-.p1{
-    color: #3C2313;
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: white;
-    margin-left: 65%;
-    margin-block-start: 220px;
-    display: inline-flex;
-}
-.p2{
-    color: #3C2313;
-    font-size: 16px;
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    padding: 5px;
-    margin-left: 72%;
-    margin-block-start: 10px;
-}
-.p3{
-    color: white;
-    font-size: 20px;
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    text-align: right;
-    padding: 20px 25px 20px 25px;
-    background-color: #F0A83E;
-    margin-left: 73.5%;
-    margin-block-start: 10px;
-    display: inline-flex;
-}
-.part1 {
-    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-    background-size: cover;
-    height: 550px;
-    background-position-y: center;
-}
-.part2{
-    text-align: center;
-    margin-block-start: 30px;
-}
-.pa1{
-    color: #3C2313;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-block-start: 10px;
-}
-.pa2{
-    margin-block-start: 30px;
-}
-.pa2 span{
-    color: #202020;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    padding-inline: 5px;
-}
-.part3{
-    text-align: center;
-    margin: auto;
-    width: 75%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.par1{
-    background-color: #FBFAF6;
-    display: inline-table;
-    float: left;
-    width: 270px;
-}
-.par2{
-    background-color: #FBFAF6;  
-    display: inline-table;
-    float: initial;
-    width: 270px;
-}
-.par3{
-    background-color: #FBFAF6;
-    display: inline-table;
-    float: right;
-    width: 270px;
-}
-
-
-
-
-.foot1 i{
-    color: white;
-    text-align: left;
-    float: left; 
-    font-size: 50px;
-    vertical-align: text-top;
-    margin-right: 40px; 
-    margin-left: 50px;
-}
-.foote i{
-    color: white;
-    float: left;
-    text-align: left;
-    font-size: 50px;
-    vertical-align: text-top;
-    margin-right: 30px;
-    margin-left: 50px;
-}
-.foote1 i{
-    color: white;
-    float: left;
-    text-align: left;
-    font-size: 50px;
-    vertical-align: text-top;
-    margin-right: 30px;
-    margin-left: 50px;
-}
-.dat{
-    text-align: justify;
-    color: white;
-    font-family: 'Roboto', sans-serif; ;
-    font-size: 22px;
-    font-weight: 700;
-    margin-right: 20px;
-}
-.dat div{
-    text-align: justify;
-    color: gray;
-    font-family: 'Roboto', sans-serif; ;
-    font-size: 14px;
-    font-weight: 700;
-}
-.foot1{
-    padding-bottom: 30px;
-}
-
-.foote{
-    padding-bottom: 30px;
-}
-.foote1{
-    padding-bottom: 20px;
-}
-.foty{
-    background-color: #3C2313;
-    padding-top: 50px;
-    padding-bottom: 30px;
+.ofertas>div{ 
+    /* el > traduce que al primer div que encuentre dentro de la clase ofertas y con espacio para aplicar a todos los div */
     padding-left: 90px;
 }
-.footy2{
-    float: right;
-    position: absolute;
-    right: 150px;
-    bottom: -930px;
+.infoPais{
+    padding-right: 50px;
 }
-.logoname3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+/* -----------CAJA NARANJA---------------*/
+.cajaNaranja {
+    background-color: var(--naranjacolor);
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cajaNaranja>div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 5px;
+}
+.nombrenegro{
+    color: var(--negrocolor)
+}
+.nombreblanco{
     color: white;
 }
-.logoname4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #F0A83E;
+.cajaNaranja>nav{
+    padding-right: 40px;
 }
-.foot2{
-    text-align: center;
+.cajaNaranja>nav ul li{
+    padding: 5px;
+}
+.cajaNaranja>nav ul li a{
     color: white;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    background-color: #222222;
+    font-size: 13px;
     padding: 10px;
+}
+/* -----------MAIN STYLE---------------*/
+/* ----------- BANNER ---------------*/
+.banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.informacion{
+    width: 50%;
+    text-align: center;
+}
+.informacion h2{
+    color: var(--cafecolor);
+    background-color: #fff;
+    width: 50%;
+    margin-inline: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.informacion>p{
+    color: var(--cafecolor);
+    line-height: 50px;
+}
+.informacion input{
+    color: var(--blancocolor);
+    background-color: var(--naranjacolor);
+    width: 140px;
+    height: 50px;
+    border-color: transparent;
+    box-shadow: 2px 2px 4px rgba(48, 127, 173, 0.5);
+}
+/* ----------- INFORMACION PAGINA ---------------*/
+.informacionPagina {
+    margin-top: 50px;
+    text-align: center;
+}
+.informacionPagina h2{
+    font-size: 40px;
+    color: var(--cafecolor);
+    line-height: 80px;
+}
+.informacionPagina ul{
+    color: #666666;
+    font-size: 15px;
+}
+/* ----------- PRODUCTO DESTACADO ---------------*/
+.productos{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.product1{
+    background-image: url(../img/churrasquito.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--beigecolor);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.product2{
+    background-image: url(../img/comedero.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--beigecolor);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.product3{
+    background-image: url(../img/Huesito.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--beigecolor);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.texto p{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.nombreProduct {
+    color: var(--cafecolor);
+    font-weight: 500;
+}
+.precio {
+    color: var(--naranjacolor);
+}
+
+
+/* ----------- FOOTER ---------------*/
+/* ----------- CAJA CAFE ---------------*/
+.cajaCafe{
+    background-color: var(--cafecolor);
+    height: 285px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nombrenaranja{
+    color: var(--naranjacolor);
+}
+.infoContacto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.itemContacto1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.contactoTexto{
+    padding-left: 25px;
+}
+.contactoTexto h3{
+    font-size: 20px;
+    color: var(--blancocolor);
+}
+.contactoTexto p{
+    font-size: 12px;
+    color: #8A8787;
+}
+/* ----------- CAJA NEGRA ---------------*/
+.cajaNegraB{
+    background-color:var(--negrocolor);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajaNegraB p{
+    text-align: center;
+    color: var(--blancocolor);
+    font-size: 12px;
 }

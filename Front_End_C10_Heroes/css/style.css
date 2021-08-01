@@ -50,6 +50,36 @@ main{
     background-image: url(../img/fondochica.png);
     background-position: top;
     background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 6px 0px grey;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.p3 {
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondo\ amazona.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 6px 0px grey;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.p4 {
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondochica.png);
+    background-position: top;
+    background-repeat: no-repeat;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 2px 6px 0px grey;
