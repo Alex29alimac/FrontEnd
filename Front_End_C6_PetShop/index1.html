@@ -19,8 +19,21 @@
             </div>
             <div>
                 <ul class="infoPais">
-                    <li><p>Español <i class="fas fa-chevron-down"></i></p></li>
-                    <li><p>ARG$ <i class="fas fa-chevron-down"></i></p></li>
+                    <li>
+                        <select name="idioma">
+                            <option value="esp">Español</option>
+                            <option value="eng">English</option>
+                            <option value="eng">Français</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="moneda">
+                            <option value="ARG">ARG$</option>
+                            <option value="COP">COP$</option>
+                            <option value="DOL">DOL$</option>
+                            <option value="EUR">EUR$</option>
+                        </select>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -84,6 +97,28 @@
                     <p class="precio">$650</p>
                 </div>
             </div>
+        </section>
+        <section class="formulario">
+            <form>
+                <h2>Contáctanos</h2>
+                <input type="text" name="nombre" id="Nombre y Apellido" placeholder="Nombre y Apellido">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+                <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                <div class="botonesform">
+                    <button type="reset" class="b1">Resetear</button>
+                    <button type="submit" class="b2">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section class="suscribcion">
+            <div>
+                <img src="img/enviar-correo 1.png" alt="correo">
+                <h2>Suscríbete para más novedades</h2>
+            </div>
+            <form class="subsEmail">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+                <button type="submit">Suscribirme</button>
+            </form>
         </section>
     </main>
     <!-- footer -->

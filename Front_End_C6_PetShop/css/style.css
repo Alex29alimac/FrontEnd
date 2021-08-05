@@ -46,6 +46,15 @@ h1{
 .infoPais{
     padding-right: 50px;
 }
+.infoPais select{
+    border-color: transparent;
+    background-color: transparent;
+    color: var(--blancocolor);
+}
+.infoPais option{
+    color: var(--negrocolor);
+    border-color: transparent;
+}
 /* -----------CAJA NARANJA---------------*/
 .cajaNaranja {
     background-color: var(--naranjacolor);
@@ -76,6 +85,9 @@ h1{
     color: white;
     font-size: 13px;
     padding: 10px;
+}
+a:hover{
+    background-color:var(--cafecolor);
 }
 /* -----------MAIN STYLE---------------*/
 /* ----------- BANNER ---------------*/
@@ -186,24 +198,124 @@ h1{
 .precio {
     color: var(--naranjacolor);
 }
-
-
+/* ----------- FORMULARIO ---------------*/
+.formulario{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formulario form{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 30%;
+    
+}
+.formulario h2{
+    color: var(--cafecolor);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.formulario input{
+    color: var(--blancocolor);
+    background-color: var(--cafecolor);
+    border-color: transparent;
+    border-radius: 15px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 9px;
+    width: 100%;
+}
+input::selection{
+    border-color: var(--naranjacolor);
+}
+.botonesform{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.b1{
+    color: var(--blancocolor);
+    background-color: #8A8787;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+}
+.b2{
+    color: var(--blancocolor);
+    background-color: var(--naranjacolor);
+    border-color: transparent;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+}
+/* ----------- SUSCRIPCION ---------------*/
+.suscribcion{
+    margin-top: 75px;
+    background-color: var(--naranjacolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-inline: 50px;
+}
+.suscribcion>div{
+    color: var(--blancocolor);
+    display: inline-flex;
+    align-items: center;
+}
+.suscribcion h2{
+    color: var(--blancocolor);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.subsEmail{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 5px;
+    justify-content: center;
+    width: 40%;
+}
+.subsEmail input{
+    border-color: transparent;
+    background-color: var(--blancocolor);
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+.subsEmail button{
+    border-color: transparent;
+    background-color: var(--cafecolor);
+    color: var(--blancocolor);
+    padding: 10px;
+    border-radius: 20px;
+}
 /* ----------- FOOTER ---------------*/
 /* ----------- CAJA CAFE ---------------*/
 .cajaCafe{
     background-color: var(--cafecolor);
     height: 285px;
-    margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    margin-right: 50px;
 }
-
 .nombrenaranja{
     color: var(--naranjacolor);
 }
@@ -214,7 +326,6 @@ h1{
     justify-content: center;
     gap: 20px;
 }
-
 .itemContacto1{
     display: flex;
     flex-wrap: wrap;
