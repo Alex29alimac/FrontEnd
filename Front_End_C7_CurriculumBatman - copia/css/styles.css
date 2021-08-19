@@ -1,0 +1,69 @@
+header {
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #005677;
+  background-color: #C4C4C4;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+h3 {
+  padding: 0.5%;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #005677;
+  background-color: #C4C4C4;
+}
+
+.datospersonales {
+  line-height: 25px;
+}
+
+.items {
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+}
+
+dt {
+  -webkit-margin-start: 40px;
+          margin-inline-start: 40px;
+}
+
+dd {
+  padding-left: 39px;
+  padding-bottom: 7px;
+  -webkit-margin-start: 80px;
+          margin-inline-start: 80px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #005677;
+  text-align: center;
+}
+
+footer .footdata {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer img {
+  vertical-align: text-bottom;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

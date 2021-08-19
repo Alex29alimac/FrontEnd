@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e7de;
+    margin: 0;
+}
+/*! --------- HEADER CEL -----------*/
+header {
+    background-color: #222222;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 0.8rem;
+}
+.nombreBlanco{
+    color: white;
+    margin-left: 5%;
+}
+.nombreRojo{
+    color: #D01418;
+}
+/*! --------- BANNER -----------*/
+.banner{
+    background-image: url('../img/img\ 1\ \(1\).png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30% 20%;
+}
+.banner h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner .letraBlanco{
+    color: white;
+}
+.banner .letraRojo{
+    color: #D01418;
+}
+.banner a{
+    color: white;
+    text-decoration: none;
+    background-color: #D01418 ;
+    padding: 0.8rem 3rem;
+    border-radius: 0.3rem;
+    animation: boton 1s infinite;
+}
+
+/*! --------- PRODUCTOS DESTACADOS -----------*/
+/*.pDestacados{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}*/
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.listaProducto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ProductoTotal{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    height: 320px;
+    width: 60%;
+}
+
+
+.linea{
+    width: 100%;
+    height: 0.07rem;
+    background-color: #e7e7de;
+}
+.informacion{
+    line-height: 0.3rem;
+    
+    width: 80%;
+    margin-bottom: 1.2rem;
+}
+.t1{
+    font-size: 1.25rem;
+}
+.t2{
+    font-size: 0.8rem;
+}
+.t3{
+    font-size: 0.6rem;
+    color: green;
+}
+/*!------- PRODUCTOS ESTRELLAS --------------*/
+.pEs{
+    margin: 20% 10%;
+    text-align: center;
+}
+.estrellas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.sillas{
+    background-image: url('../img/banner\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    color: white;
+    /*height: 110px;*/
+    height: 7rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.pc{
+    background-image: url('../img/banner\ 1\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    color: white;
+    height: 110px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+/*!------- FOOTER --------------*/
+.cajaNegra{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.2rem 0;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.5rem;
+}
+.redes>p{
+    color: white;
+    font-size: 1.5rem;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cajaBlanca{
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+
+@media (min-width: 1024px) {
+    .banner{
+        background-position: center;
+        padding: 15% 20%;
+    }
+    .banner a:hover{
+        transform: scale(1.1);
+    }
+    @keyframes boton {
+        0%{}
+        25%{transform: scale(1.1);}
+    }
+    .listaProducto{
+        justify-content: center;
+        gap: 2rem;
+
+    }
+    .ProductoTotal{
+        width: 25%;
+    }
+    .ProductoTotal:hover{
+        transform: scale(1.1);
+    }
+    .estrellas{
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .pEs{
+        margin: 10% 10%;
+    }
+    .sillas, .pc{
+        width: 40%;
+        height: 10rem;
+        font-size: 1.5rem;
+    }
+    .cajaNegra{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 3rem 0;
+    }
+    .cajaBlanca{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .nombreBlanco{
+        color: white;
+        margin-left: 2%;
+    }
+    .socialMedia a:hover{
+        transform: scale(1.2);
+    }
+    .banner h2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

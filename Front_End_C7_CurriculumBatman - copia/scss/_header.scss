@@ -1,0 +1,12 @@
+header {
+    background-color: $BC_header_Color;
+    text-align:center;
+    h1 {
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color:$titles_color;
+        background-color: $BC_titles_Color;
+    }
+}
+

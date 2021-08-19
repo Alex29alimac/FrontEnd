@@ -1,0 +1,33 @@
+main {
+    margin:0 auto;
+    width: 70%;
+}
+
+h3 {
+    padding: 0.5%;
+    font-size: 18px ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:$titles_color;
+    background-color: $BC_titles_Color;
+}
+
+.datospersonales {
+    line-height: 25px; 
+}
+
+.items {
+    font-weight: bold;
+    font-style: italic;
+    color: $content_color;
+}
+dt {
+    margin-inline-start: 40px;
+}
+dd {
+    padding-left: 39px;
+    padding-bottom: 7px; 
+    margin-inline-start: 80px;
+}
+
+

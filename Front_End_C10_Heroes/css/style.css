@@ -2,26 +2,58 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.head1 {
+/*! ------------ HEADER GENERAL (3 paginas)------------*/
+/*----------- LINEA VERDE -----------*/
+.head1{
+    display: flex;
+    justify-content: center;
     background-color: #1CD1B0;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    font-weight: 500;
     width: auto;
 }
-.head2 {
-    padding-top: 28px;
-    padding-bottom: 28px;
-    padding-left: 28px;
+/* ----------- LINEAS AZUL -------------*/
+.head2{
     background-color: #00669F;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-shadow: 0px 3px 5px 1px grey;
-    width: auto;
 }
+.head2>div{
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    gap: 10px;
+    padding-left: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    margin-right: 50px;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+a>li:hover{
+    color: yellow;
+    font-size: 18px ;
+    align-items: center;
+}
+/*! ------------------ MAIN INDEX ------------*/
 .main{
     display: flex;
     justify-content: space-around;
@@ -137,7 +169,7 @@ body{
     color: white;
     text-decoration: none;
 }
-
+/*! ------------ FOOTER GENERAL (3paginas) ---------------------- */
 footer{
     text-align: center;
     background-color: #00669F;

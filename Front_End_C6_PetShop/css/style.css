@@ -86,8 +86,14 @@ h1{
     font-size: 13px;
     padding: 10px;
 }
-a:hover{
+.cajaNaranja>nav ul li a:hover{
     background-color:var(--cafecolor);
+    border-radius: 1rem;
+}
+.cajaNaranja>nav ul li a::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    content: "\f1b0";
 }
 /* -----------MAIN STYLE---------------*/
 /* ----------- BANNER ---------------*/
@@ -222,7 +228,7 @@ a:hover{
     font-size: 25px;
     margin-bottom: 20px;
 }
-.formulario input{
+.formulario input[type="text"], .formulario input[type="email"], .formulario input[type="tel"]{
     color: var(--blancocolor);
     background-color: var(--cafecolor);
     border-color: transparent;
@@ -232,16 +238,24 @@ a:hover{
     font-size: 9px;
     width: 100%;
 }
-input::selection{
+.formulario input[type="text"]:hover, input[type="email"]:hover, input[type="tel"]:hover, 
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus{
     border-color: var(--naranjacolor);
 }
+input{
+    outline: none;
+    align-content: center;
+}
+
 .botonesform{
     margin-top: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
-.b1{
+
+input[type="reset"]{
     color: var(--blancocolor);
     background-color: #8A8787;
     border-color: transparent;
@@ -250,7 +264,7 @@ input::selection{
     height: 35px;
     font-size: 16px;
 }
-.b2{
+.formulario input[type="submit"]{
     color: var(--blancocolor);
     background-color: var(--naranjacolor);
     border-color: transparent;
@@ -258,6 +272,9 @@ input::selection{
     width: 100px;
     height: 35px;
     font-size: 16px;
+}
+.formulario input[type="text"]::placeholder, .formulario input[type="email"]::placeholder, .formulario input[type="tel"]::placeholder{
+    color: white;
 }
 /* ----------- SUSCRIPCION ---------------*/
 .suscribcion{
